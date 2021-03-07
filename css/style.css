@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 100px 0;
+    background: linear-gradient(0deg, rgba(158,0,255,1) 0%, rgba(25,0,221,1) 100%);
+}
+
+.section::before{
+    content: 'JORDAN 1';
+    position: absolute;
+    font-size: 15vw;
+    color: rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    /* margin-top: 10vh; */
+}
