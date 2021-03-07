@@ -101,3 +101,23 @@ header{
     background: #111;
     font-size: 15px;
 }
+
+.social{
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: invert(1);
+}
+
+.social li{
+    list-style: none;
+}
+
+.social li a{
+    display: block;
+    transform: scale(.7);
+}
